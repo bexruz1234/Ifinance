@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: #f7f7f7;
+    color: #737373;
+}
+h1, h2, h3, h4, h5{
+    color: #252B42;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+h1{
+    font-size: 56px;
+}
+h2{
+    font-size: 38px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 22px;
+}
+p{
+    font-size: 16px;
+}
+.btn{
+    color: #23A6F0;
+    display: inline-block;
+    width: fit-content;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #23A6F0;
+    padding: 15px 36px;
+    border-radius: 37px;
+    transition: .4s ease;
+}
+.btn:hover{
+    background: #23A6F0;
+    color: #ffffff;
+}
+.btn-primary{
+    color: #ffffff;
+    background: #23A6F0;
+}
+.btn-primary:hover{
+    background: transparent;
+    color: #23A6F0;
+}
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+section{
+    padding: 110px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+.logo{
+    text-decoration: none;
+}
+.yozuv{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.yozuv p{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    color: #737373;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.nav-link li a{
+    color: #737373;
+    transition: .4s ease;
+    text-decoration: none;
+}
+.nav-link li a:hover{
+    color: #23A6F0;
+}
+.menu{
+    display: none;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-button a{
+    text-decoration: none;
+}
+.nav-button a:nth-child(1){
+    color: #23A6F0;
+    font-weight: bold;
+    font-size: 15px;
+}
+header{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+.hdumaloq{
+    position: absolute;
+    width: 240px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.telefonorqasi{
+    width: 140%;
+    left: -90px;
+}
+
+.headerniki{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 56% auto;
+}
+.textt{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.textt p{
+    width: 60%;
+}
+.landing-buttonla{
+    display: flex;
+    gap: 10px;
+}
+.main-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main-img img{
+    position: absolute;
+}
+
+#About{
+    color: #ffffff;
+}
+.aboutt{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+article{
+    border: 1px solid #737373;
+    border-radius: 5px;
+    transition: .4s ease;
+    padding: 40px 30px;
+}
+article:hover{
+    background: #23A6F0;
+    color: #ffffff !important;
+}
+.about-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.about-card .odom{
+    font-size: 48px;
+    color: #23A6F0;
+    transition: .4s ease;
+}
+.about-card .odom:hover{
+    color: #ffffff;
+}
+.about-card:nth-child(2){
+    background: #23A6F0;
+    color: #ffffff;
+}
+.about-card:nth-child(2) .odom{
+    color: #ffffff !important;
+}
+.about-card:nth-child(2) h4{
+    color: #ffffff !important;
+}
+.about-card:hover .odom{
+    color: #ffffff;
+}
+.about-card h4{
+    transition: .4s ease;
+}
+.about-card:hover h4{
+    color: #ffffff;
+}
+
+.testimonialniki{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.testimonials-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: .1px solid #a69898;
+
+}
+.yulduz{
+    color: yellow;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile-info .avatar{
+    width: 50px;
+}
+.testimonials-card h5{
+    transition: .4s ease;
+}
+.testimonials-card:hover h5{
+    color: #ffffff !important;
+}
+
+#News{
+    color: #ffffff;
+}
+
+.newsniki{
+    width: 96% !important;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.news-card{
+    position: relative;
+}
+.news-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.news-info small,.news-info p{
+    color: #ffffff;
+}
+.news-info .btn{
+    padding: 10px 28px !important;
+    font-size: 14px !important;
+}
+
+.pulniki{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.price-card{
+    background: #ffffff !important;
+    text-align: center;
+    border: none;
+
+}
+.price-card .btn{
+    margin-bottom: 30px;
+    width: 80%;
+    border-radius: 5%;
+}
+.price-card:hover{
+    color: #737373 !important;
+}
+.pack-info{
+    margin: 30px auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #737373;
+}
+.puli{
+    color: #23A6F0;
+}
+.oyi{
+    color: #35afe8;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+}
+.pack-items li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: #252B42;
+}
+.pack-items li i{
+    color: #2dc071;
+}
+.new{
+    position: absolute;
+    right: 10px;
+    margin-top: -5rem;
+    background: #e77c40;
+    padding: 26px 16px;
+    border-radius: 50%;
+    display: flex;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+#Contact{
+    background: #252B42;
+    padding: 80px 0;
+}
+.contactniki{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+.yozuvi h2, .yozuvi p{
+    color: #ffffff;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+.socials a{
+    color: #23A6F0;
+    font-size: 20px;
+    transition: .4s ease;
+}
+.emaili{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+.emaili input, .emaili button{
+    padding: 1rem;
+    font-size: 14px;
+    background: #ffffff;
+    color: #737373;
+    border-radius: 4%;
+}
+.emaili button{
+    background: #23A6F0;
+    color: #ffffff;
+}
